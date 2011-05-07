@@ -24,7 +24,7 @@ public class NoAFKTask extends TimerTask
 		long kickTime = System.currentTimeMillis()-plugin.configTime;
 		for(int i = 0; (players.length-1) >= i; i++){
 			lastMoved = 0;
-			player = plugin.getServer().getOnlinePlayers()[i];
+			player = players[i];
 			playerName = player.getName();
 			lastMoved = plugin.users.get(playerName);
 			if(lastMoved < kickTime) player.kickPlayer("AFK-Kick! You were too long Away...");
