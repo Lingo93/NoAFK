@@ -1,0 +1,15 @@
+name: NoAFK
+main: de.lingo93.noafk.NoAFK
+version: 0.2
+author: Lingo93
+description: >
+             Plugin kicks AFK-Players
+commands:
+  noafk:
+    description: checks of a new version
+    aliases:
+    usage: /<command>
+  cnoafk:
+    description: configs NoAFK
+    aliases:
+    usage: /<command> <option> <value>
